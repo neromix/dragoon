@@ -1,0 +1,19 @@
+// Custom Fonts
+@import 'fonts/montserrat';
+
+// Font Awesome
+$fa-font-path: "fonts/fontawesome/";
+@import '~@fortawesome/fontawesome-pro/scss/fontawesome';
+@import '~@fortawesome/fontawesome-pro/scss/brands';
+@import '~@fortawesome/fontawesome-pro/scss/duotone';
+@import '~@fortawesome/fontawesome-pro/scss/light';
+@import '~@fortawesome/fontawesome-pro/scss/regular';
+@import '~@fortawesome/fontawesome-pro/scss/solid';
+
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Tailwind Components
+@import 'components';
