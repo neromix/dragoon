@@ -68,8 +68,15 @@ body {
         </ul>
     </nav>
 
-    <div class="w-full">
-        Blah blah blah
+    <div class="w-full flex flex-col">
+        <nav class="flex justify-between w-full py-4 px-8 bg-brand-500 text-white">
+            <div class="flex items-center">
+                <i class="fas fa-expand mr-8 text-2xl"></i>
+
+                <input class="form-inp fbb700" type="text" placeholder="search">
+            </div>
+            
+        </nav>
     </div>
 </div>
 <!-- /.container -->

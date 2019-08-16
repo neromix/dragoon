@@ -30945,6 +30945,10 @@ video {
   border-color: #4cb6eb;
 }
 
+.form-inp.fbb700:focus {
+  border-color: #248ec3;
+}
+
 .admin-side-nav a {
   color: #a0aec0;
 }
