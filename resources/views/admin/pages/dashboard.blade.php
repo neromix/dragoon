@@ -73,9 +73,15 @@ body {
             <div class="flex items-center">
                 <i class="fas fa-expand mr-8 text-2xl"></i>
 
-                <input class="form-inp fbb700" type="text" placeholder="search">
+                <input class="form-inp focus:border-gray-700" type="text" placeholder="search">
             </div>
             
+            <div class="flex items-center align-middle">
+                <span class="mr-6">Hello, Admin!</span>
+                <i class="fas fa-envelope mr-4 text-2xl"></i>
+                <a href="http://dragoon.test/admin/login" class="mr-4" style="height: 24px;"><i class="fas fa-sign-out text-2xl"></i></a>
+                <div class="bg-white rounded-full h-10 w-10"></div>
+            </div>
         </nav>
     </div>
 </div>

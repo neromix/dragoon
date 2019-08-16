@@ -24,14 +24,14 @@ body {
                 <label class="block text-grey-darker text-sm mb-2" for="username">
                     Username
                 </label>
-                <input class="form-inp" id="username" type="text" placeholder="Username">
+                <input class="form-inp focus:border-brand-500" id="username" type="text" placeholder="Username">
             </div>
 
             <div class="mb-6">
                 <label class="block text-grey-darker text-sm mb-2" for="password">
                     Password
                 </label>
-                <input class="form-inp" id="password" type="password" placeholder="password123">
+                <input class="form-inp focus:border-brand-500" id="password" type="password" placeholder="password123">
                 <!-- <p class="text-red text-xs italic">Please choose a password.</p> -->
             </div>
 
