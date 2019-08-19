@@ -1,0 +1,55 @@
+#admin-container {
+    @apply bg-gray-800 w-screen min-h-screen flex text-white;
+
+    nav { @apply w-1/6 bg-gray-700; }
+    .content-container {
+        @apply w-full min-h-screen flex flex-col p-2;
+        @screen md { @apply p-6; }
+    }
+
+    // Navigations links on sidebar
+    .nav-ul {
+        a {
+            @apply text-gray-500;
+            &:hover { @apply text-white; }
+            b { @apply hidden; }
+            i { min-width: 25px; }
+        }
+    
+        li {
+            @apply w-full py-4 border-transparent flex justify-center;
+            &:hover { 
+                @apply bg-gray-800 border-brand-500;
+                i { @apply text-brand-500; }
+            }
+            &.active {
+                @apply bg-gray-800 border-brand-300 text-white;
+                i { @apply text-brand-300; }
+            }
+        }
+    
+        @screen md {
+            a i { @apply text-xl; }
+        }
+    
+        @screen xl {
+            a b { @apply inline; }
+            a i { @apply mr-2; }
+            li { @apply pl-8 pr-4 py-2 border-l-6 block; }
+        }
+    }
+    
+    // Special metric blocks on dashboard
+    .metric-block {
+        @apply h-full w-full flex justify-between items-center py-4 px-8 bg-brand-500 text-white;
+    
+        @screen lg { @apply w-1/3; }
+    
+        .text   { @apply font-bold text-2xl; }
+        .number { @apply font-black text-3xl text-right; }
+    
+        &.blue-gradient { background: linear-gradient(-20deg, #248ec3, #4cb6eb); }
+        &.red-gradient { background: linear-gradient(-20deg, #c3243f, #eb4c67); }
+        &.purple-gradient { background: linear-gradient(-20deg, #6b46c1, #9f7aea); }
+    }
+}

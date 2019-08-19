@@ -1,4 +1,4 @@
-// Custom Fonts
+// Custom fonts
 @import 'fonts/montserrat';
 
 // Font Awesome
@@ -15,5 +15,8 @@ $fa-font-path: "fonts/fontawesome/";
 @tailwind components;
 @tailwind utilities;
 
-// Tailwind Components
-@import 'components';
+// Custom components
+@import 'custom/components';
+
+// Admin panel rules
+@import 'custom/admin-panel.scss';
