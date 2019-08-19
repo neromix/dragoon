@@ -4,17 +4,31 @@
 
 @section('additional-styles')
 <style>
-body {
-    background-image: url('{{ asset("img/admin/login-ocean.jpg") }}')
+.hero {
+    background-image: url('{{ asset("img/admin/anime-spirit-dog.png") }}');
 }
 </style>
 @endsection
 
 @section('content')
 
-<div class="bg-white w-screen h-screen max-h-screen flex">
+<div class="bg-white w-screen min-h-screen flex">
     <nav class="w-1/6 bg-gray-700">
-        <h1 class="text-brand-500 font-bold text-2xl text-center py-4">Dragoon</h1>
+        <h1 class="text-brand-500 text-2xl text-center py-4">
+            <i class="fas fa-dragon text-2xl md:text-3xl xl:text-2xl"></i> <b class="hidden xl:inline-block">Dragoon</b>
+        </h1>
+
+        <div class="user-panel bg-gray-800 flex flex-col text-white py-4 mb-4">
+            <div class="user-avatar w-full flex justify-center mb-2 md:mr-0">
+                <div class="bg-white rounded-full h-10 w-10"></div>
+            </div>
+            <span class="w-full text-center my-2 hidden md:block">Hello, admin!</span>
+            <div class="flex flex-col md:flex-row justify-center align-middle text-2xl">
+                <a href="#" class="text-center md:mr-4"><i class="fas fa-envelope"></i></a>
+                <a href="http://dragoon.test/admin/login" class="text-center"><i class="fas fa-sign-out"></i></a>
+            </div>
+        </div>
+
         <ul class="admin-side-nav">
             <a href="#"><li>
                 <i class="fas fa-tachometer-fast"></i>
@@ -69,20 +83,8 @@ body {
     </nav>
 
     <div class="w-full flex flex-col">
-        <nav class="flex justify-between w-full py-4 px-8 bg-brand-500 text-white">
-            <div class="flex items-center">
-                <i class="fas fa-expand mr-8 text-2xl"></i>
-
-                <input class="form-inp focus:border-gray-700" type="text" placeholder="search">
-            </div>
-            
-            <div class="flex items-center align-middle">
-                <span class="mr-6">Hello, Admin!</span>
-                <i class="fas fa-envelope mr-4 text-2xl"></i>
-                <a href="http://dragoon.test/admin/login" class="mr-4" style="height: 24px;"><i class="fas fa-sign-out text-2xl"></i></a>
-                <div class="bg-white rounded-full h-10 w-10"></div>
-            </div>
-        </nav>
+        <div class="hero h-64 w-full bg-cover bg-center">
+        </div>
     </div>
 </div>
 <!-- /.container -->

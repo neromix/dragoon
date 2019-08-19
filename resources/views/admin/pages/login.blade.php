@@ -15,8 +15,8 @@ body {
 <div class="container mx-auto h-full flex justify-center items-center">
 
     <div class="login-form w-full max-w-md bg-white shadow">
-        <div class="bg-brand-500 text-white w-full px-8 py-4 font-bold">
-            <h1 class="text-center text-3xl">Dragoon Admin</h1>
+        <div class="bg-gray-700 text-brand-500 w-full px-8 py-4 font-bold">
+            <h1 class="text-center text-3xl"><i class="fas fa-dragon"></i> Dragoon</h1>
         </div>
 
         <form class="px-8 py-8">

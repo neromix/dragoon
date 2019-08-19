@@ -17,13 +17,24 @@
 .admin-side-nav {
     a {
         @apply text-gray-500;
-        &:hover { @apply text-gray-700; }
-
-        i { @apply mr-2; }
+        &:hover { @apply text-white; }
+        b { @apply hidden; }
+        i { min-width: 25px; }
     }
 
     li {
-        @apply w-full pl-8 pr-4 py-2 border-r-6 border-transparent;
-        &:hover { @apply bg-white border-brand-500; }
+        @apply w-full py-4 border-transparent flex justify-center;
+        &:hover { @apply bg-gray-800 border-brand-500; }
+    }
+
+    @screen md {
+        a i { @apply text-xl; }
+    }
+
+    @screen xl {
+        a b { @apply inline; }
+        a i { @apply mr-2; }
+        li { @apply pl-8 pr-4 py-2 border-l-6 block; }
     }
 }
+
