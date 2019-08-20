@@ -17,3 +17,6 @@ Route::get('/admin/login', function() {
 Route::get('/admin/dashboard', function() {
     return view('admin/pages/dashboard');
 });
+Route::get('/admin/settings', function() {
+    return view('admin/pages/settings');
+});

@@ -31184,11 +31184,12 @@ textarea {
 }
 
 #admin-container .section .section-card .card-title {
-  font-weight: 500;
+  font-weight: 700;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: #4cb6eb;
 }
 
 @media (min-width: 768px) {
@@ -31211,8 +31212,8 @@ textarea {
   #admin-container .section .section-card .card-content {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -31281,11 +31282,15 @@ textarea {
 }
 
 #admin-container .task-list li h4 {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #admin-container .task-list li span {
   opacity: 0.75;
+}
+
+#admin-container .task-list li:last-of-type {
+  margin-bottom: 0;
 }
 
 #admin-container .activity-list li {
@@ -31308,6 +31313,10 @@ textarea {
 
 #admin-container .activity-list li span {
   opacity: 0.5;
+}
+
+#admin-container .text-shadow {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 640px){
