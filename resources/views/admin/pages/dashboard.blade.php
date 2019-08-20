@@ -41,110 +41,106 @@
         <!-- /.metrics -->
 
         <section class="section hero-section hidden md:block">
-            <div class="section-container">
-                <div class="hero w-full h-64 bg-cover bg-center shadow-center"></div>
-            </div>
+            <div class="hero w-full h-64 bg-cover bg-center shadow-center"></div>
         </section>
         <!-- /.hero-section -->
 
         <section class="section task-section">
-            <div class="section-container">
-                <div class="section-card h-auto">
-                    <h3 class="card-title">Current task list</h3>
-                    <div class="card-content">
-                        <ul class="task-list">
-                            <li>
-                                <input type="checkbox">
-                                <div>
-                                    <h4>Sparkle all the ponies</h4>
-                                    <span>By Emmanuel on 4/20/2019</span>
-                                </div>
-                            </li>
+            <div class="section-card">
+                <h3 class="card-title">Current task list</h3>
+                <div class="card-content">
+                    <ul class="task-list">
+                        <li>
+                            <input type="checkbox">
+                            <div>
+                                <h4>Sparkle all the ponies</h4>
+                                <span>By Emmanuel on 4/20/2019</span>
+                            </div>
+                        </li>
 
-                            <li>
-                                <input type="checkbox">
-                                <div>
-                                    <h4>Eliminate lemonade elixirs</h4>
-                                    <span>By Papadopolous78 on 3/7/2019</span>
-                                </div>
-                            </li>
+                        <li>
+                            <input type="checkbox">
+                            <div>
+                                <h4>Eliminate lemonade elixirs</h4>
+                                <span>By Papadopolous78 on 3/7/2019</span>
+                            </div>
+                        </li>
 
-                            <li>
-                                <input type="checkbox">
-                                <div>
-                                    <h4>Make some ecchi grills</h4>
-                                    <span>By nice on 6/9/2019</span>
-                                </div>
-                            </li>
+                        <li>
+                            <input type="checkbox">
+                            <div>
+                                <h4>Make some ecchi grills</h4>
+                                <span>By nice on 6/9/2019</span>
+                            </div>
+                        </li>
 
-                            <li>
-                                <input type="checkbox">
-                                <div>
-                                    <h4>Contemplate the Schrodinger equations</h4>
-                                    <span>By 3in5teinXX on 5/2/1856</span>
-                                </div>
-                            </li>
+                        <li>
+                            <input type="checkbox">
+                            <div>
+                                <h4>Contemplate the Schrodinger equations</h4>
+                                <span>By 3in5teinXX on 5/2/1856</span>
+                            </div>
+                        </li>
 
-                            <li>
-                                <input type="checkbox">
-                                <div>
-                                    <h4>Actually do some work</h4>
-                                    <span>By Splashsky on 8/20/2019</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                        <li>
+                            <input type="checkbox">
+                            <div>
+                                <h4>Actually do some work</h4>
+                                <span>By Splashsky on 8/20/2019</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <!-- End of add-task form -->
-
-                <div class="section-card">
-                    <h3 class="card-title">Recent admin activities</h3>
-                    <div class="card-content">
-                        <ul class="activity-list">
-                            <li>
-                                <i class="fas fa-treasure-chest fa-fw"></i>
-                                <div>
-                                    <h4>Ricardo added a new item</h4>
-                                    <span>5 hrs ago</span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-shield fa-fw"></i>
-                                <div>
-                                    <h4>Milos69 banned a user for cheating</h4>
-                                    <span>30 mins ago</span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-lemon fa-fw"></i>
-                                <div>
-                                    <h4>KingK0ng45 established the Lemonade Elixir</h4>
-                                    <span>140 yrs ago</span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-axe-battle fa-fw"></i>
-                                <div>
-                                    <h4>Francis crafted a Legendary weapon</h4>
-                                    <span>2 hrs ago</span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-pen fa-fw"></i>
-                                <div>
-                                    <h4>Splashsky actually did some work</h4>
-                                    <span>7 mins ago</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End of list of tasks -->
             </div>
+            <!-- End of add-task form -->
+
+            <div class="section-card">
+                <h3 class="card-title">Recent admin activities</h3>
+                <div class="card-content">
+                    <ul class="activity-list">
+                        <li>
+                            <i class="fas fa-treasure-chest fa-fw"></i>
+                            <div>
+                                <h4>Ricardo added a new item</h4>
+                                <span>5 hrs ago</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-shield fa-fw"></i>
+                            <div>
+                                <h4>Milos69 banned a user for cheating</h4>
+                                <span>30 mins ago</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-lemon fa-fw"></i>
+                            <div>
+                                <h4>KingK0ng45 established the Lemonade Elixir</h4>
+                                <span>140 yrs ago</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-axe-battle fa-fw"></i>
+                            <div>
+                                <h4>Francis crafted a Legendary weapon</h4>
+                                <span>2 hrs ago</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-pen fa-fw"></i>
+                            <div>
+                                <h4>Splashsky actually did some work</h4>
+                                <span>7 mins ago</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of list of tasks -->
         </section>
         <!-- /.task-section -->
     </div>

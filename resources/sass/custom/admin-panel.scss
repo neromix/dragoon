@@ -58,10 +58,8 @@
 
     // Sections for the admin panel
     .section {
-        .section-container {
-            @apply  w-full flex flex-col mb-6;
-            @screen lg { @apply flex-row; }
-        }
+        @apply  w-full flex flex-col mb-6;
+        @screen lg { @apply flex-row; }
 
         .section-card {
             @apply w-full my-2 bg-gray-700 shadow-center;
@@ -111,6 +109,11 @@
             i { @apply text-3xl text-brand-500 mr-4; }
             span { @apply opacity-50; }
         }
+    }
+
+    .explanation {
+        @apply hidden;
+        @screen md { @apply inline; }
     }
 
     .text-shadow { text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
