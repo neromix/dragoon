@@ -1,5 +1,6 @@
 #admin-container {
     @apply bg-gray-800 w-screen min-h-screen flex text-white;
+    max-width: 100vw !important;
 
     nav { @apply w-1/6 bg-gray-700 shadow-center; }
     .content-container {
@@ -80,6 +81,7 @@
                 @apply my-0 mx-4;
                 &:first-of-type { @apply my-0 mx-0 mr-2; }
                 &:last-of-type { @apply my-0 mx-0 ml-2; }
+                &:only-of-type { @apply mx-0 ml-0; }
             }
         }
     }
@@ -111,10 +113,55 @@
         }
     }
 
+    .news-list {
+        li {
+            @apply flex items-center mb-4;
+            @screen md { @apply mb-8; }
+
+            i {
+                @apply text-2xl mr-8;
+                @screen md { @apply text-5xl; }
+            }
+
+            &.general i { @apply text-purple-500; }
+            &.update i { @apply text-info-500; }
+            &.bug-fix i { @apply text-cta-500; }
+            &.event i { @apply text-success-500; }
+
+            .mid {
+                @apply flex flex-col w-full;
+
+                h4 {
+                    @apply text-lg flex items-center;
+                    @screen md { @apply text-2xl; }
+                }
+                h5 {
+                    @apply opacity-75 mb-2 text-sm;
+                    @screen md { @apply text-base; }
+                }
+                p {
+                    @apply hidden;
+                    @screen md { @apply block; }
+                }
+            }
+            .right {
+                @apply flex flex-col ml-4 text-right;
+                @screen md { @apply ml-8; }
+
+                .number {
+                    @apply text-lg font-bold;
+                    @screen md { @apply text-3xl; }
+                }
+                .text {
+                    @apply text-sm opacity-75;
+                    @screen md { @apply text-base; }
+                }
+            }
+        }
+    }
+
     .explanation {
         @apply hidden;
         @screen md { @apply inline; }
     }
-
-    .text-shadow { text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
 }

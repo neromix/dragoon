@@ -32,7 +32,7 @@
                 <h3 class="card-title">Game metadata</h3>
                 <div class="card-content">
                     <form>
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="game-status" class="block text-sm mb-2">
                                 <b>Game Status</b><span class="explanation"> - by setting this you change the status of 
                                 the game between open, closed and maintenance mode.</span>
@@ -44,7 +44,7 @@
                             </select>
                         </div>
 
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="game-name" class="block text-sm mb-2">
                                 <b>Game Name</b><span class="explanation"> - this is the name of your game. This will adjust 
                                 any direct mentions of the name.</span>
@@ -52,7 +52,7 @@
                             <input type="text" id="game-name" class="input input-dark" placeholder="Enter your game's name here" value="Dragoon">
                         </div>
 
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="map-size" class="block text-sm mb-2">
                                 <b>Map Size</b><span class="explanation"> - the game world is a square, and this value is the length of one side.
                                 Your world is this value squared.</span>
@@ -69,7 +69,7 @@
                 <h3 class="card-title">Forum configurations</h3>
                 <div class="card-content">
                     <form>
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="forum-type" class="block text-sm mb-2">
                                 <b>Forum Type</b><span class="explanation"> - here you can choose to use the internal forum software, 
                                 an external forum or no forum.</span>
@@ -81,7 +81,7 @@
                             </select>
                         </div>
 
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="forum-link" class="block text-sm mb-2">
                                 <b>External forum link</b><span class="explanation"> - if you selected external forum above, here's 
                                 where you set the link to the forum.</span>
@@ -89,7 +89,7 @@
                             <input type="text" id="forum-link" class="input input-dark" placeholder="https://exampleforum.com">
                         </div>
 
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="form-verify" class="block text-sm mb-2">
                                 <b>Additional verification</b><span class="explanation"> - when enabled, this setting requires players 
                                 to verify their email to use the forums, on top of normal account verification.</span>
@@ -109,7 +109,7 @@
                 <h3 class="card-title">Fun values</h3>
                 <div class="card-content">
                     <form>
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="gold-mod" class="block text-sm mb-2">
                                 <b>Gold modifier</b><span class="explanation"> - by raising or lowering this number, you can affect 
                                 how much gold players earn.</span>
@@ -117,7 +117,7 @@
                             <input type="number" name="gold-mod" class="input input-dark" placeholder="1" value="1">
                         </div>
 
-                        <div class="form-group mb-4 md:mb-8">
+                        <div class="form-group">
                             <label for="exp-mod" class="block text-sm mb-2">
                                 <b>EXP modifier</b><span class="explanation"> - like the gold modifier above, this affects EXP gains</span>
                             </label>
@@ -136,7 +136,6 @@
 <!-- /.admin-container -->
 
 <script>
-    var activeLink = document.getElementById("settings-link");
-    activeLink.classList.add('active');
+    $('#settings-link').addClass('active');
 </script>
 @endsection

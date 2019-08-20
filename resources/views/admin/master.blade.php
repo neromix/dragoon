@@ -8,6 +8,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/textarea-autoresize.js') }}"></script>
     
     @yield('additional-styles')
 </head>

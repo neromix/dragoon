@@ -27,7 +27,7 @@
             <b>Settings</b>
         </li></a>
 
-        <a href="#"><li id="news-link">
+        <a href="/admin/news"><li id="news-link">
             <i class="fas fa-feather-alt fa-fw"></i>
             <b>News</b>
         </li></a>

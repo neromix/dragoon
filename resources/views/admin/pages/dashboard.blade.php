@@ -150,7 +150,6 @@
 <!-- /.admin-container -->
 
 <script>
-    var activeLink = document.getElementById("dash-link");
-    activeLink.classList.add('active');
+    $('#dash-link').addClass('active');
 </script>
 @endsection
