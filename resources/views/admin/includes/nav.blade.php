@@ -32,7 +32,7 @@
             <b>News</b>
         </li></a>
 
-        <a href="#"><li id="players-link">
+        <a href="/admin/players"><li id="players-link">
             <i class="fas fa-users fa-fw"></i>
             <b>Players</b>
         </li></a>

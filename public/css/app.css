@@ -30949,12 +30949,6 @@ video {
   z-index: auto;
 }
 
-body {
-  width: 100vw;
-  overflow-x: hidden;
-  max-width: 100vw !important;
-}
-
 ::-moz-selection {
   background-color: #4cb6eb;
 }
@@ -31131,7 +31125,6 @@ textarea {
   min-height: 100vh;
   display: flex;
   color: #ffffff;
-  max-width: 100vw !important;
 }
 
 #admin-container nav {
@@ -31439,6 +31432,10 @@ textarea {
   }
 }
 
+#admin-container .news-list li:last-of-type {
+  margin-bottom: 0;
+}
+
 #admin-container .news-list li i {
   font-size: 1.5rem;
   margin-right: 2rem;
@@ -31539,6 +31536,36 @@ textarea {
   #admin-container .news-list li .right .text {
     font-size: 1rem;
   }
+}
+
+#admin-container .player-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#admin-container .player-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+#admin-container .player-list li .mid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#admin-container .player-list li a {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  #admin-container .player-list li a {
+    display: block;
+  }
+}
+
+#admin-container .player-list li a:hover {
+  color: #4cb6eb;
 }
 
 #admin-container .explanation {

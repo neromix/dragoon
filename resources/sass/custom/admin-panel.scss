@@ -1,6 +1,5 @@
 #admin-container {
     @apply bg-gray-800 w-screen min-h-screen flex text-white;
-    max-width: 100vw !important;
 
     nav { @apply w-1/6 bg-gray-700 shadow-center; }
     .content-container {
@@ -59,7 +58,7 @@
 
     // Sections for the admin panel
     .section {
-        @apply  w-full flex flex-col mb-6;
+        @apply w-full flex flex-col mb-6;
         @screen lg { @apply flex-row; }
 
         .section-card {
@@ -118,6 +117,8 @@
             @apply flex items-center mb-4;
             @screen md { @apply mb-8; }
 
+            &:last-of-type { @apply mb-0; }
+
             i {
                 @apply text-2xl mr-8;
                 @screen md { @apply text-5xl; }
@@ -156,6 +157,21 @@
                     @apply text-sm opacity-75;
                     @screen md { @apply text-base; }
                 }
+            }
+        }
+    }
+
+    .player-list {
+        li {
+            @apply flex items-center mb-8;
+            &:last-of-type { @apply mb-0; }
+
+            .mid { @apply flex flex-col w-full; }
+
+            a {
+                @apply hidden;
+                @screen lg { @apply block; }
+                &:hover { @apply text-brand-500; }
             }
         }
     }

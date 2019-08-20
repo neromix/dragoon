@@ -23,3 +23,6 @@ Route::get('/admin/settings', function() {
 Route::get('/admin/news', function() {
     return view('admin/pages/news');
 });
+Route::get('/admin/players', function() {
+    return view('admin/pages/players');
+});
