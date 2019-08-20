@@ -1,6 +1,7 @@
 // Buttons
 .btn {
     @apply font-bold py-2 px-4 rounded;
+    &:hover { @apply cursor-pointer; }
 }
 
 .btn-brand {
@@ -9,6 +10,25 @@
 }
 
 // Form Inputs
-.form-inp {
+.input {
     @apply appearance-none border rounded w-full py-2 px-3 text-gray-700;
+
+    &.input-dark { @apply border-none bg-gray-600 text-white; }
+}
+
+// A very nice checkbox
+.nice-checkbox {
+    width: 24px;
+    height: 20px;
+    @apply relative appearance-none bg-brand-500;
+
+    &:after {
+        width: 20px;
+        height: 20px;
+        @apply absolute top-0 left-0 flex items-center justify-center;
+        content: '\F00C';
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 900;
+        font-size: 12px;
+    }
 }

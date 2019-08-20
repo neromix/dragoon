@@ -15,8 +15,11 @@ $fa-font-path: "fonts/fontawesome/";
 @tailwind components;
 @tailwind utilities;
 
+// Custom global rules
+@import 'custom/global-rules';
+
 // Custom components
 @import 'custom/components';
 
 // Admin panel rules
-@import 'custom/admin-panel.scss';
+@import 'custom/admin-panel';
