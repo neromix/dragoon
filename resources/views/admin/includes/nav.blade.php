@@ -37,11 +37,6 @@
             <b>Players</b>
         </li></a>
 
-        <a href="#"><li id="perms-link">
-            <i class="fas fa-scroll-old fa-fw"></i>
-            <b>Permissions</b>
-        </li></a>
-
         <a href="#"><li id="items-link">
             <i class="fas fa-treasure-chest fa-fw"></i>
             <b>Items</b>

@@ -31122,6 +31122,7 @@ textarea {
 #admin-container {
   background-color: #2d3748;
   width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
   display: flex;
   color: #ffffff;
